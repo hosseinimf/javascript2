@@ -1,0 +1,168 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: #5d5874;
+}
+.h{
+  color: rgb(83, 83, 83);
+  font-size: 20px;
+  margin: 30px;
+  text-align: center;
+}
+ul{
+  list-style: none;
+}
+header{
+  margin: 30px;
+}
+.form{
+  display: flex;
+  margin-top: 40px;
+}
+.form button{
+  margin-left: 5px;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.item-div{
+  border: solid lightskyblue 1px;
+  border-radius: 9px;
+  margin: 20px;
+  justify-content: space-between;
+}
+.todo{
+  display: flex;
+  
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+  
+
+
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 520px;
+  min-height: 600px;
+  background: #161a2b;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 10px;
+  padding-bottom: 32px;
+}
+
+
+.complete {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin-bottom: 32px;
+}
+
+.todo-input {
+  padding: 14px 32px 14px 16px;
+  border-radius: 4px 0 0 4px;
+  border: 2px solid #5d0cff;
+  outline: none;
+  width: 320px;
+  background: transparent;
+  color: #fff;
+}
+
+.todo-input::placeholder {
+  color: #e2e2e2;
+}
+
+
+
+.todo-input.edit {
+  border: 2px solid #149fff;
+}
+
+.todo-button.edit {
+  background: linear-gradient(
+    90deg,
+    rgba(20, 159, 255, 1) 0%,
+    rgba(17, 122, 255, 1) 100%
+  );
+  padding: 16px 22px;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.todo-row {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  color: rgb(77, 77, 77);
+  border: solid rgb(138, 153, 236) 1px;
+  background: rgb(183, 204, 233);
+  padding: 6px 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.delete-icon {
+  color: rgb(77, 77, 77);
+}
+.delete-icon:hover{
+  color:  rgb(112, 62, 62);;
+}
+
+.edit-icon {
+  color: rgb(77, 77, 77);
+  margin-right: 20px;
+}
+.edit-icon:hover{
+  color: rgb(163, 165, 68);
+}
+
